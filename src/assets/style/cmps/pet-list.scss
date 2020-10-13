@@ -1,0 +1,14 @@
+.pet-list {
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+        max-width: 300px;
+    }
+
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3,1fr);
+}
+

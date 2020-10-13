@@ -1,0 +1,44 @@
+.pet-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.red{color: red;}
+.green{color:green;}
+
+.left-det{
+    width:50%;
+}
+
+.right-det{
+    width:50%;
+    margin-top: 55px;
+
+    &>*{
+        margin-bottom: 15px;
+    }
+}
+
+.review{
+    font-size: 22px;
+    text-align: left;
+}
+
+.details-img{
+   max-width:300px;
+}
+
+.on-sale{
+    padding:15px;
+    position: absolute;
+    top:169px;
+    left:287px;
+    color:#fff;
+    background-color: rgb(122, 230, 122) ;
+    z-index: 3;
+}
+
+.rev-inside button{
+    justify-self: flex-end;
+    margin-left: auto;
+}

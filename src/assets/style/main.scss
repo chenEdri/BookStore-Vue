@@ -1,0 +1,59 @@
+// Setup
+@import "./setup/_variables.scss";
+@import "./setup/_functions.scss";
+@import "./setup/_mixins.scss";
+@import "./setup/_typography.scss";
+
+// Basics
+@import "./basics/form.scss";
+@import "./basics/_helpers.scss";
+@import "./basics/_layout.scss";
+@import "./basics/_base.scss";
+@import "./basics/_links.scss";
+@import "./basics/_buttons.scss";
+
+//components
+@import './cmps/pet-list.scss';
+@import './cmps/pet-preview.scss';
+@import './cmps/pet-details.scss';
+@import './cmps/filter.scss';
+@import './cmps/user-msg';
+@import './cmps/header.scss';
+@import './cmps/about.scss';
+
+body {
+    background-color: rgba(209, 201, 201, 0.705);
+}
+
+.powerful {
+    background-color: lightgreen;
+}
+.weak {
+    background-color: lightpink;
+}
+
+
+.user-msg {
+    background-color: #444;;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.more{
+    width:40ch;
+}
+
+.less{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.home{
+    background-image: url('https://res.cloudinary.com/dygtul5wx/image/upload/v1600010022/samples/ecommerce/leather-bag-gray.jpg');
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+}

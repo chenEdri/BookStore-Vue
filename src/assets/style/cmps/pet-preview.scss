@@ -1,0 +1,24 @@
+.pet-preview {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+.book-preview{
+    background-color: #79bd7d3d;
+    height: 400px;
+    align-items: center;
+    border: 0.7px solid #ccc;
+    border-radius: 8px;
+    padding:10px;
+}
+
+.card-img{
+    background-color: rgb(179, 179, 179);
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.book-title{
+    min-height:55px;
+}
